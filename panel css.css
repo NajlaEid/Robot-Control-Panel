@@ -1,0 +1,39 @@
+body {
+font-family: sans-serif;
+}
+
+h1 {
+text-align: center;
+}
+
+#control-panel {
+width: 200px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.row {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.col {
+flex: 1;
+text-align: center;
+}
+
+button {
+padding: 10px 20px;
+margin: 10px;
+font-size: 16px;
+border-radius: 50%;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+}
